@@ -6,7 +6,7 @@ import warnings
 from sklearn.metrics import confusion_matrix, accuracy_score
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
 
-# Suppress warnings and logs
+# Suppress warnings and log
 warnings.filterwarnings("ignore", category=UserWarning)
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
